@@ -4,11 +4,39 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div>
+      <h1 id="titulosenhasegura">Você sabe como ter uma senha segura?</h1>
+      <h2 id="titulocesar"> Cifra de César </h2>
+      <p id="textoexplicativo">Codifique sua mensagem!</p>
+      <img id="imagemcadeado" src="https://cdn-icons-png.flaticon.com/512/114/114101.png" width="180">
     </div>
-    <script src="index.js" type="module"></script>
+
+    <main>
+      <h3 id="titulotestarcifracesar">Para você ter suas senhas de forma segura, vamos testar na prática a Cifra de César.</h3>
+      <h3 id="selecione">Selecione qual ação você deseja fazer:</h3>
+
+      <section>
+        <input type="radio"  name="botao" class="transitionRadio" id="OpcaoCodificar" value="Codificar" >   Codificar
+        <input type="radio"  name="botao" class="transitionRadio" id="OpcaoDecodificar" value="Decodificar">   Decodificar </br>
+        </br>
+      </section>
+
+      <h3 id="selecione2">Qual será a chave secreta?</h3>
+      <div>
+        <textarea id="ChaveSecreta" placeholder="?"></textarea>       
+      </div>
+      
+      <div>
+        <textarea id="CodificaArea" placeholder="        escreva aqui sua mensagem:"></textarea> <!--inserindo as duas text area, e chamando elas no css-->
+        <textarea id="ResultadoArea" readonly></textarea>
+      </div>
+
+      <button id="BotaoResultado"> Conferir resultado </button> 
+        
+    </main>
+  <script defer src="index.js" type="module"></script> 
   </body>
 </html>

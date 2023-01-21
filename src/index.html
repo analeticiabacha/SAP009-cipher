@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cifra de César</title>
     <link rel="stylesheet" href="style.css" />
 
   </head>
@@ -25,16 +25,23 @@
       </section>
 
       <h3 id="selecione2">Qual será a chave secreta?</h3>
-      <div>
-        <textarea id="ChaveSecreta" placeholder="?"></textarea>       
+    
+      <div id="chave"> 
+        <label id="chaveSecretaNum"> (N°): </label> 
+        <input id="ChaveSecreta" type="number" min="1" max="99" />
       </div>
       
       <div>
-        <textarea id="CodificaArea" placeholder="        escreva aqui sua mensagem:"></textarea> <!--inserindo as duas text area, e chamando elas no css-->
-        <textarea id="ResultadoArea" readonly></textarea>
+        <textarea id="CodificaArea" placeholder="escreva aqui sua mensagem:"></textarea> <!--inserindo as duas text area, e chamando elas no css-->
+        <textarea id="ResultadoArea" class="classeResultado"></textarea>
       </div>
 
       <button id="BotaoResultado"> Conferir resultado </button> 
+
+      <h4 id="desenvolvidopor"> 
+        © Desenvolvido por Ana Leticia O. Bacha Prince </br>
+          9ª turma da Laboratoria.
+      </h4>
         
     </main>
   <script defer src="index.js" type="module"></script> 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cifra de César</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <div>
+      <h1 id="titulosenhasegura">Você sabe como ter uma senha segura?</h1>
+      <h2 id="titulocesar"> Cifra de César </h2>
+      <p id="textoexplicativo">Codifique sua mensagem!</p>
+      <img id="imagemcadeado" src="https://cdn-icons-png.flaticon.com/512/114/114101.png" width="180">
+    </div>
+
+    <main>
+      <h3 id="titulotestarcifracesar">Para você ter suas senhas de forma segura, vamos testar na prática a Cifra de César.</h3>
+      <h3 id="selecione">Selecione qual ação você deseja fazer:</h3>
+
+      <section>
+        <input type="radio"  name="botao" class="transitionRadio" id="OpcaoCodificar" value="Codificar" >   Codificar
+        <input type="radio"  name="botao" class="transitionRadio" id="OpcaoDecodificar" value="Decodificar">   Decodificar <br>
+      </section>
+
+      <h3 id="selecione2">Qual será a chave secreta?</h3>
+    
+      <div id="chave"> 
+        <label id="chaveSecretaNum"> (N°): </label> 
+        <input id="ChaveSecreta" type="number" min="1" max="99" />
+      </div>
+      
+      <div>
+        <textarea id="CodificaArea" placeholder="escreva aqui sua mensagem:"></textarea> <!--inserindo as duas text area, e chamando elas no css-->
+        <textarea id="ResultadoArea" class="classeResultado"></textarea>
+      </div>
+
+      <button id="BotaoResultado"> Conferir resultado </button> 
+
+      <h4 id="desenvolvidopor"> 
+        © Desenvolvido por Ana Leticia O. Bacha Prince <br>
+          9ª turma da Laboratoria.
+      </h4>
+        
+    </main>
+  <script defer src="index.js" type="module"></script> 
+  </body>
+</html>

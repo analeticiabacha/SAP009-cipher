@@ -1,0 +1,199 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap'); /* link da fonte utilizada */
+
+html,
+body {
+  background-color: #da81ee;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #efdcf5;
+  margin: auto;
+  padding: auto;
+  border-top: 0.4px solid #fff2e7;
+}
+
+#titulosenhasegura {
+  font-family: "Trattatello", fantasy;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  color: #ead6f0;
+  opacity: 0.8;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  background-color:#180416;
+}
+
+#titulocesar {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 100;
+  font-size: 27px;
+  letter-spacing: 4px;
+  color: #0e1412;
+}
+
+#titulotestarcifracesar{
+  font-family: "Trattatello", fantasy; 
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #0e1412;
+}
+#selecione{
+  font-family: "Trattatello", fantasy;
+  font-size: 16px;
+  color:#0e1412;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+#selecione2{
+  font-family: "Trattatello", fantasy;
+  font-size: 16px;
+  color:#0e1412;
+  font-weight: 100;
+ 
+}
+
+::placeholder {
+  color: #b731c4;
+  font-size: 14px;
+  font-family: "Trattatello", fantasy;
+  text-align: center;
+}
+
+#OpcaoDecodificar{
+  font-family: "Trattatello", fantasy;
+  font-size: 16px;
+  color:#0e1412;
+  font-weight: 100;
+ 
+}
+
+#OpcaoCodificar{
+  font-family: "Trattatello", fantasy;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+#chaveSecretaNum{
+  font-family: "Trattatello", fantasy;
+  font-size: 16px;
+  color:#0e1412;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.transitionRadio{
+  width: 20px;
+  height: 20px;
+  transition: transform 2s;
+    
+}
+.transitionRadio:checked{
+  transform: scale(2);
+  
+}
+
+#CodificaArea {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  border: none;
+  border-radius: 65px 0px 0px 65px;
+  margin-right: -10px;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 15px;
+  resize: none;
+  padding: 15px;
+  opacity: 60%;
+}
+
+#ResultadoArea {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  border:#0e1412;
+  border-radius: 0px 75px 75px 0px;
+  margin-left: 11px;
+  font-family: "Inconsolata", sans-serif;
+  resize: none; /* travar o redimencionamento da caixa de texto*/
+  padding: 15px;
+  opacity: 40%;
+}
+
+#codificar{
+  background: #221422;
+	color: #fff;
+	border: 0.1px solid rgb(26, 1, 29);
+	border-radius: 100px;
+	text-shadow: none;
+}
+#textoexplicativo{
+  font-family: "Trattatello", fantasy; 
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #0e1412;    
+}
+
+#ChaveSecreta{
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 80px 80px 80px 80px;
+  margin-right: 10px;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 20px;
+  resize: none;
+  padding: 15px;
+  opacity: 60%;
+
+}
+
+input[type=radio]:checked + label:before {
+  content: "\2022";
+  color: #932626;
+  font-size: 30px;
+  text-align: center;
+  line-height: 18px;
+}
+
+#desenvolvidopor{
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  color: #f4c1f0;
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 20px;
+  padding: 10px;
+  
+
+}
+
+#BotaoResultado{
+  background:    #550569;
+  border-radius: 11px;
+  box-shadow:    0 1px #444444;
+  padding:       5px 9px;
+  color:         #eda9eb;
+  display:       inline-block;
+  font:          normal bold 15px "Calibri", sans-serif;
+  text-align:    center;
+}
+
+::-webkit-scrollbar-track { /*estilizando a barra de rolagem */
+  background-color: #da81ee;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #ebaaf0;
+}
+::-webkit-scrollbar-thumb {
+  background: #180416;
+}

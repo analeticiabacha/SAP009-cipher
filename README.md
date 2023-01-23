@@ -1,12 +1,13 @@
-# Você sabe como ter uma senha segura?
-Primeiro projeto desenvolvido para o Bootcamp da Laboratória. Essa aplicação permite que o usuário codifique ou descodifique suas senhas de forma segura, mostrando na prática a Cifra de César. Essa aplicação traz segurança para as senhas dos usuários.
+# Você sabe como ter uma senha segura? :lock:
+Primeiro projeto desenvolvido para o Bootcamp da Laboratória (9ª turma). 
+Essa aplicação permite que o usuário codifique ou descodifique suas senhas de forma segura, mostrando na prática a Cifra de César. Essa aplicação traz segurança para as senhas dos usuários.
 
-## Índice
+## Índice 
 
-* [1. Sobre o Projeto](#1-Sobre)
-* [2. Instruções](#2-Intruções)
-* [3. Interface](#3-Interface-do-projeto)
-* [4. Objetivos Alcançados](#4-Objetivos-Alcançados)
+* [1. Sobre o Projeto](#1-Sobre) ✒️
+* [2. Instruções](#2-Intruções) 🗒️
+* [3. Interface](#3-Interface-do-projeto) 📲
+* [4. Objetivos Alcançados](#4-Objetivos-Alcançados) ✔️
 
 ***
 
@@ -76,8 +77,8 @@ um alerta e impede que o usuário prossiga.
 - [:star2:] Possibilidade de escolha do Offset (deslocamento) pelo usuário.
 - [:star2:] Interface onde o usuário digite a mensagem desejada.
 - [:star2:] Interface para visualização do resultado da cifra.
-- [:star2:] Alerta caso algum campo não seja preenchico.
+- [:star2:] Alerta caso algum campo não seja preenchido.
 - [:star2:] Cifrar/Decifrar letras maiúculas/minúsculas.
 - [:star2:] Suporte para caracteres especiais: são mantidos.
 - [:star2:] Interface para visualização do resultado da cifra.
-- [:star2:] REDME com definição da aplicação.
+- [:star2:] README com definição da aplicação.

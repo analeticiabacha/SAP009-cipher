@@ -9,20 +9,35 @@ const textoCodifica = document.getElementById("CodificaArea");
 const textoResultado = document.getElementById("ResultadoArea");
 const deslocamento = document.getElementById("ChaveSecreta");
 
-botaoResultado.addEventListener("click",acaoDoBotao);
+
+
+textoCodifica.addEventListener("keyup", letrasMaiusculas);
+botaoResultado.addEventListener("click", acaoDoBotao);
+
+function letrasMaiusculas(valorTextarea) {
+
+  const letter = valorTextarea.target;
+  letter.value = letter.value.toUpperCase();
+
+}
+
 
 function acaoDoBotao(){
-  if (textoCodifica.value === "" || deslocamento === "" || opcaoCodificar === "" || opcaoDecodificar === ""){
-    alert("Por favor, preencha todos os campos!");  
-    
-  }
-  else if (opcaoCodificar.checked) {
-    textoResultado.value = cipher.encode(deslocamento, textoCodifica); 
-    console.log(textoResultado.value);      
 
-  } else {
-    
-    textoResultado.value = cipher.decode(deslocamento, textoCodifica); 
-    console.log(textoResultado.value);
+  const msg = textoCodifica.value;
+  const chave = deslocamento.value;
+
+  if (msg === "" || chave === "" || opcaoCodificar === "" || opcaoDecodificar === ""){
+    alert("Algum campo está em branco! Por favor, preencha-os!");
+  }
+
+  if (opcaoCodificar.checked) {
+    textoResultado.value = cipher.encode(chave, msg); 
+    //console.log(textoResultado.value);      
+
+  }else {
+    textoResultado.value = cipher.decode(chave, msg); 
+    //console.log(textoResultado.value);
   } 
 }
+

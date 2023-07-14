@@ -1,5 +1,5 @@
 # Você sabe como ter uma senha segura? :lock:
-Primeiro projeto desenvolvido para o Bootcamp da Laboratória (9ª turma). 
+
 Essa aplicação permite que o usuário codifique ou descodifique suas senhas de forma segura, mostrando na prática a Cifra de César. Essa aplicação traz segurança para as senhas dos usuários.
 
 ## Índice 
